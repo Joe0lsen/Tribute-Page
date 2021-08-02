@@ -1,0 +1,108 @@
+body {
+    background-color: grey;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+    background: #cddaff;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 35px 0 0 0;
+}
+
+#main {
+    text-align: center;
+    background-color: #ebf1ff;
+    margin: 50px 15% auto 15%;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 10px 10px 30px 5px #555;
+}
+
+#title {
+    font-size: 48px;
+}
+
+#subtitle {
+    font-style: italic;
+}
+
+#img-div {
+    margin: auto;
+    padding: 0.3%;
+    width: 70%;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#image {
+    display: block;
+    width: 100%;
+    max-width: 2000px;
+    border-radius: 4px;
+}
+
+#img-caption {
+    font-style: italic;
+    padding: 6px 0 4px 0;
+}
+
+#tribute-info {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#pre-quote {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#tribute-info ul li {
+    text-align: left;
+    line-height: 1.4;
+    padding-bottom: 5px;
+}
+
+#quotes {
+    text-align: left;
+}
+
+footer {
+    width: 69%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+}
+
+#hr-foot {
+    border-color: silver;
+}
+
+#text-foot {
+    margin-top: 30px;
+    color: silver;
+}
+
+a:link {
+    color: initial;
+}
+
+#text-foot a {
+    color:silver;
+    text-decoration: none;
+}
+
+#text-foot a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#text-foot a:visited {
+    color: #ebf1ff;
+    text-decoration: none;
+}
